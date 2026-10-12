@@ -1,0 +1,45 @@
+# Dependency directories
+node_modules/
+.pnp
+.pnp.js
+
+# Environment variables & secrets (CRITICAL FOR CYBERSECURITY)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.env
+serviceAccountKey.json
+firebase-adminsdk*.json
+secrets/
+
+# Build artifacts & compilation output
+dist/
+build/
+coverage/
+.cache/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+firebase-debug.log*
+firestore-debug.log*
+
+# Firebase & Cloud artifacts
+.firebase/
+.firebaserc.local
+
+# Expo & React Native
+.expo/
+.expo-shared/
+web-build/
+
+# IDE & OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
